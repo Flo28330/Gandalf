@@ -1,6 +1,7 @@
 # Gandalf
 exercice
 partie HTML
+
 <!doctype>
 <html>
     <head>
