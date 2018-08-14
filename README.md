@@ -1,21 +1,46 @@
 # Gandalf
 exercice
-partie HTML
+partie CSS
 
-<!doctype>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Gandalf</title>
-     <link rel="stylesheet" href="style.css" />
-    </head>
 
-    <body>
-        <div id="gandalf">
-            <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="gandalf" />
-            <p class="text">reward <span>1000</span> golden coins</p>
-            <h3>Gandalf</h3>
-        </div>
-    </body>
-</html>
+body {
+    font-family: Roboto, sans-serif;
+}
 
+.text {position: absolute;
+     background-color: #C0C0C0;
+     text-align: center;
+     border-radius: 25px;
+     margin: 0 100px;
+     top: 50px;
+     width: 320px;
+     opacity: 0.7;
+     font-size: 50px;    
+}
+
+h3 {color:white;
+    position: absolute;
+    left: 130px;
+    top: 350px;
+    font-size: 70px;
+}
+
+img {opacity: 0.6;
+}
+
+span {color: red;
+}
+
+#gandalf {width: 500px;}
+
+#gandalf:hover > img {opacity: 1;}
+
+#gandalf:hover > .text{
+    display: none;
+}
+
+#gandalf:hover > h3 {
+  font-size: 40px;
+  top: 460px;
+  left: 180px;
+} 
