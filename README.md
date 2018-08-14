@@ -1,7 +1,7 @@
 # Gandalf
-exercice css
+exercice
 partie HTML
-
+<!doctype>
 <html>
     <head>
         <meta charset="utf-8" />
